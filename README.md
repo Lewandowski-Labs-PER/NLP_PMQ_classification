@@ -39,5 +39,11 @@ At this time, though, in order to classify your own data without providing a tra
 * DMSS_vector.pickle  
 * DMSS_logit.pickle  
 
-
-
+## Notes from Ben's initial test on June 15:
+* I needed to run the following (in python) to download the required nltk info:
+```
+import nltk
+nltk.download('averaged_perceptron_tagger') 
+nltk.download('wordnet')
+```
+* Has issues with blank entries...
